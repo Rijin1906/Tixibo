@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+}
+
+form {
+    width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+label {
+    display: block;
+    margin-bottom: 3px;
+}
+
+/* input[type="text"], */
+input[type="datetime-local"],
+input[type="file"],
+input[type="url"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: rgb(45, 147, 231);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+.row1{
+    display: flex;
+    justify-content: space-between;
+}
+.two-input{
+    width: 400px;
+}

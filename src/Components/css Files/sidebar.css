@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sidebar{
+    height:100vh ;
+    background-color: white;
+    width: 30vh;
+}
+.hamburger{
+    height: 3.5vh;
+    background-color: white;
+    padding-left: 5px;
+    color: blue;
+}
+.hamburger button{
+    padding-left: 35px;
+    border-style: none;
+    background-color: white;
+}
+.my-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+
+}
+.my-list ul li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    list-style: none;
+}
+.list-anchor{
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+.list-anchor i{
+    padding-right: 10px
+}
+
+.my-list li:hover{
+    background-color: rgb(211, 230, 249);
+    border-radius: 5px;
+    border-left: 5px solid rgb(25, 43, 240);
+}

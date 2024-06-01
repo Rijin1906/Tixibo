@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.child-card{
+    height: 70px;
+    width: 95%;
+    background-color: white;
+    margin-left: 10px;
+}
+.child-card{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.card-left{
+    display: flex;
+    justify-content: left;
+}
+.small-card{
+    height: 50px;
+    width: 50px;
+    background-color: brown;
+    padding:5px;
+    margin: 10px;
+    color: black;
+    background-color: gray;
+    font-size: 20px;
+}
+
+.card-details-heading{
+    font-size: 20px;
+}
+
+.specific-timing{
+    display: flex;
+}
+
+.font-color{
+    font-size:7px
+}
+.card-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card-right div{
+    margin-right: 5px;
+}
+.eyeIcon{
+    color: blue;
+}
+.card-right div button{
+    background-color: white;
+    border-style: none;
+}
